@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hatirlatma_title_label"/>
+    <EditText
+        android:id="@+id/hatirlatma_title_tek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hatirlatma_title_hint"/>
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hatirlatma_details_label"/>
+    <EditText
+        android:id="@+id/hatirlatma_detail_tek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hatirlatma_detail_hint"/>
+
+    <CheckBox
+        android:id="@+id/Tamamlandi_tek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Tamamlandi"/>
+
+
+    <Button
+        android:id="@+id/sil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:text="sil" />
+
+
+</LinearLayout>
+
+

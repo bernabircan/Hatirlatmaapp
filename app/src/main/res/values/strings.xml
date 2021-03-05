@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">final</string>
+    <string name="hatirlatma_title_label">Title</string>
+    <string name="hatirlatma_title_hint">Enter a title for the hatirlatma.</string>
+    <string name="hatirlatma_details_label">Details</string>
+    <string name="hatirlatma_detail_hint">Enter  details for the hatirlatma.</string>
+    <string name="Tamamlandi">Tamamlandi</string>
+    <string name="Tamamlanmadi">Tamamlanmadi</string>
+    <string name="new_crime">new crime</string>
+
+</resources>
